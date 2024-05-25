@@ -15,6 +15,8 @@ A descrição anterior se aplica para obtenção das demonstrações financeiras
 
 ### 1.2 Indicadores Financeiros
 
+![indicadores](https://github.com/viniciusbelchior0/cvm_DFPs/blob/main/references/demonstracoes_financeiras.png)
+
 ## 2. Análises
 Os dados que foram armazenados no banco de dados servirão como insumo para análise, seja ela através de relatório interativos ou de consultas específicas.
 
