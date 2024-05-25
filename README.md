@@ -13,6 +13,8 @@ Primeiro, os diferentes arquivos são baixados, descompactados e as demonstraç�
 
 A descrição anterior se aplica para obtenção das demonstrações financeiras, bem como parcialmente para a obtenção das empresas listadas - que contêm menos etapas devido a simplicidade das informações a serem coletadas. Após a obtenção desses dados, eles serão inseridos em um banco de dados no PostgreSQL, com uma tabela para propósito - um para companhias e outro para as demonstrações. Inclusive, esse processo pode ser agendado para ser realizado em dias periódicos, através de ferramentas de orquestração.
 
+### 1.2 Indicadores Financeiros
+
 ## 2. Análises
 Os dados que foram armazenados no banco de dados servirão como insumo para análise, seja ela através de relatório interativos ou de consultas específicas.
 
