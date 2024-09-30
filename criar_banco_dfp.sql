@@ -11,7 +11,7 @@ CREATE TABLE companhias(
 CREATE TABLE demonstracoes(
     cia_ano character varying(12) NOT NULL,
     ano date NOT NULL,
-    cd_cv character varying(10) NOT NULL,
+    cd_cvm character varying(10) NOT NULL,
     ativo_total bigint,
     ativo_circulante bigint,
     ativo_nao_circulante bigint,
@@ -33,7 +33,7 @@ CREATE TABLE demonstracoes(
     margem_operacional double precision,
     margem_liquida double precision,
     roe double precision,
-    fluxocaixa_livre bigint
-    PRIMARY KEY (cia_ano)
+    fluxocaixa_livre bigint,
+    PRIMARY KEY (cia_ano),
     CONSTRAINT fk_cd_cvm FOREIGN KEY (cd_cvm) REFERENCES companhias(cd_cvm)
 );
